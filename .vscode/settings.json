@@ -3,5 +3,8 @@
   "openInGitHub.remote.branch": "main",
   "typescript.preferences.importModuleSpecifierEnding": "js",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }
