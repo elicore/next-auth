@@ -38,12 +38,12 @@
     "clean": "rm -rf *.js *.d.ts*"
   },
   "dependencies": {
-    "@auth/core": "workspace:*"
+    "@auth/core": "^0.37.2"
   },
   "peerDependencies": {
-    "redis": "^4"
+    "@redis/client": "^1.6.0"
   },
   "devDependencies": {
-    "redis": "^4.7.0"
+    "@redis/client": "^1.6.0"
   }
 }
